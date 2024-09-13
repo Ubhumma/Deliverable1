@@ -58,6 +58,9 @@ if ((candySold <= candyStock) && (candySold >= 0))
     Console.WriteLine("Invalid Value. Stock Not Adjusted.");
 }
 
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Console.WriteLine("Thank you; According to what you entered:");
 if (sodaStock <= sodaRestock)
 {
@@ -93,6 +96,6 @@ if (candyStock <= candyRestock)
 -After each input, the remaining stock of the current item is displayed
 -Each if statement associated with restocked checks if stock is less than or equal to restock
 -All restock conditions run independently of each other.
-Items that need to be restocked display on the console.
+-Items that need to be restocked display on the console.
 
  */
